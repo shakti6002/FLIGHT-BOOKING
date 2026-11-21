@@ -1,0 +1,11 @@
+print("City:")
+print(df["City"].unique())
+
+print("\nAccount Type:")
+print(df["Account_Type"].unique())
+
+print("\nEmployment Type:")
+print(df["Employment_Type"].unique())
+
+print("\nPreferred Channel:")
+print(df["Preferred_Channel"].unique())
